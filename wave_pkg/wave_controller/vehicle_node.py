@@ -4,7 +4,6 @@ from geometry_msgs.msg import Twist, Quaternion, Vector3
 from sensor_msgs.msg import Imu
 from wave_rover_serial import Robot
 import math
-import tf2_ros
 
 class VehicleNode(Node):
     def __init__(self):
